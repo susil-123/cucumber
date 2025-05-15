@@ -1,0 +1,5 @@
+com\awesomeQA\stepDefinition\LoginPageStepDefinition.class
+com\awesomeQA\stepDefinition\RegisterPageStepDefinition.class
+com\awesomeQA\stepDefinition\HomePageStepDefinition.class
+com\awesomeQA\runners\RunnerClass.class
+com\awesomeQA\hooks\Hooks.class

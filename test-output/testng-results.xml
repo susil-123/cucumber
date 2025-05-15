@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T21:12:35 IST" name="Default suite" finished-at="2025-05-15T21:12:59 IST" duration-ms="23758">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-15T21:12:35 IST" name="Default test" finished-at="2025-05-15T21:12:59 IST" duration-ms="23758">
+      <class name="com.awesomeQA.runners.RunnerClass">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:35 IST" name="setUpClass" finished-at="2025-05-15T21:12:35 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-15T21:12:50 IST" duration-ms="15134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["extracting page title from home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Display home page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-15T21:12:53 IST" duration-ms="2570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into user account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-15T21:12:54 IST" duration-ms="1062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with incorrect credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login into user account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-15T21:12:56 IST" duration-ms="2432" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register with new user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register user account]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[User should be able to register...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: User should be able to register...
+at junit.framework.Assert.fail(Assert.java:57)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at com.awesomeQA.stepDefinition.RegisterPageStepDefinition.I_click_on_to_register_option_correctCreds(RegisterPageStepDefinition.java:33)
+at ✽.I passed correct "John1", "Doe1", "john1.doe@gmail.com", "9876542210", "Pass@1231", "Pass@1231" credentials(file:///C:/Users/susil.k/eclipse-workspace/cucumberRevise/src/test/resources/features/registerPageFeature.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-15T21:12:59 IST" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register with existing user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register user account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.awesomeQA.runners.RunnerClass@7c137fd5]" started-at="2025-05-15T21:12:59 IST" name="tearDownClass" finished-at="2025-05-15T21:12:59 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.awesomeQA.runners.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

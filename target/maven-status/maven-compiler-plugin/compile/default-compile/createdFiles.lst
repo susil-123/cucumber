@@ -1,0 +1,6 @@
+com\awesomeQA\pages\LoginPage.class
+com\awesomeQA\pages\HomePage.class
+com\awesomeQA\utils\DriverManager.class
+com\awesomeQA\pages\Logout.class
+com\awesomeQA\pages\RegisterPage.class
+com\awesomeQA\pages\EditAccountInfo.class
